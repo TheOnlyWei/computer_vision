@@ -2,7 +2,6 @@
 // last modified 11/10/16
 // Class for representing a 2D gray-scale image,
 // with support for reading/writing pgm images.
-// To be used in Computer Vision class.
 
 #ifndef COMPUTER_VISION_IMAGE_H_
 #define COMPUTER_VISION_IMAGE_H_

@@ -1,6 +1,6 @@
 // by Wei Shi
 // last modified 11/10/16
-// s2 1
+// s2
 
 #include <cstdio>
 #include <iostream>

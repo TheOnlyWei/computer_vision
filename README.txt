@@ -1,5 +1,8 @@
 CALCULATE ALBEDO AND NEEDLE MAP
 
+	Type make all to make all four sample programs s1, s2, s3, s4
+	Follow the DIRECTIONS to apply the programs.
+
 			1. The formula I used for finding normal to a sphere is (used in s2):
 			(x-xc)^2 + (y-yc)^2 + (z-zc)^2 = r^2
 
@@ -15,6 +18,8 @@ CALCULATE ALBEDO AND NEEDLE MAP
 			(dx, dy) from the sphere's center in the 2D image.
 
 			These two formulas were tested and found to give the same normal vectors.
+
+	DIRECTIONS
 
 			s1 command line parameters:
 				{input original image} {input threshold value} {output parameters file}
