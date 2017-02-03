@@ -9,6 +9,8 @@ SAMPLE PROGRAMS: CALCULATE ALBEDO AND NEEDLE MAP
 		Where z-zc is solved to find the depth of a normal vector.
 
 	DIRECTIONS
+		The corresponding program files contain messages describing how they work. THe below
+		commands detail the parameters required.
 
 		s1 command line parameters:
 			{input original image} {input threshold value} {output parameters file}
