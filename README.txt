@@ -1,23 +1,12 @@
-CALCULATE ALBEDO AND NEEDLE MAP
+SAMPLE PROGRAMS: CALCULATE ALBEDO AND NEEDLE MAP
 
 	Type make all to make all four sample programs s1, s2, s3, s4
 	Follow the DIRECTIONS to apply the programs.
 
-		1. The formula I used for finding normal to a sphere is (used in s2):
+		1. The formula implemented for finding normal to a sphere is (used in s2):
 		(x-xc)^2 + (y-yc)^2 + (z-zc)^2 = r^2
 
 		Where z-zc is solved to find the depth of a normal vector.
-
-		The formula for finding the surface normal of a sphere at point
-		(x, y) given its 2D image is <x, y, rsin(arccos(D/r))>, where D is the
-		distance from the sphere's center to the point (x, y) and r is the radius
-		of the sphere.
-
-		Therefore, the direction of light source is the vector
-		<dx, dy, rsin(arccos(D/r))>, Where D here is the distance to the highlight
-		(dx, dy) from the sphere's center in the 2D image.
-
-		These two formulas were tested and found to give the same normal vectors.
 
 	DIRECTIONS
 
